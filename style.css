@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .invoice {
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+  
+  .invoice-details, .company-details {
+    text-align: right;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .pricing {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .price-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .price-item.total {
+    font-size: 24px;
+  }
+  
+  .tnc-thankyou {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .tnc, .thankyou {
+    flex: 1;
+  }
+  
+  .tnc h3, .thankyou h3 {
+    margin-bottom: 10px;
+  }
